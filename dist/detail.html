@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title> INDEX PAGE </title>
+<title> davin's technical blog </title>
+<script src="/js/json.js" defer></script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -17,6 +18,7 @@
     <div class="progress-bar"></div>
 </div>
 <header>
+    <div class="dimd"></div>
     <h1 class="logo-area">
         <a href="./index.html" class="logo">davin's edit.</a>
     </h1>
@@ -61,44 +63,22 @@
         </ul>
     </div>
 </header>
+<div class="help">
+    <div class="speech-bubble">Can you help me?</div>
+    <button type="button" class="me"></button>
+    <div class="inner">
+        <ul class="layers">
+            <li class="step1"><a href="tel:821033882125" class="">전화</a></li>
+            <li class="step2"><a href="https://open.kakao.com/o/sCQUQ7qf" class="">카톡</a></li>
+            <li class="step3"><a href="https://github.com/dabin9" class="">깃허브</a></li>
+        </ul>
+    </div>
+</div>
+
     <main>
         <section class="detail-section">
-            <h2 class="page-title">scroll-animation 구현 1</h2>
-            <div class="comm-amount">
-                <a href="#" class="category">
-                    <span>javascript1-1</span>
-                </a>
-                <span class="date">2023년04월11일</span>
-            </div>
-            <!-- <button type="button" class="btn">aaa</button> -->
-            <div class="contents">
-                <div class="box-wrap">
-                    <div class="content-txt-wrap">
-                        <h4 class="label">🤓설명</h4>
-                        <p class="txt">
-                            텍스트를 강조할때 가장 많이 이용하는 애니메이션이다.
-                        </p>
-                    </div>
-                    <div class="box">
-                        <p class="codepen" data-height="400" data-default-tab="html,result" data-slug-hash="zYmGbNK" data-user="dallight" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-                            <span>See the Pen <a href="https://codepen.io/dallight/pen/zYmGbNK">
-                            2023/4/11</a> by dabin (<a href="https://codepen.io/dallight">@dallight</a>)
-                            on <a href="https://codepen.io">CodePen</a>.</span>
-                          </p>
-                    </div>
-                </div>
-
-                <div class="content-txt-wrap">
-                    <h4 class="label">마무리</h4>
-                    <p class="txt">
-                        스크롤을 이용하여 도형을 움직여보자
-                    </p>
-                </div>
-            </div>
+            <ul class="board-detail-wrap" id="board-detail"></ul>
         </section>
-        <div class="prev-page">
-            <a href="./javascript1.html" class="list-go">목록으로</a>
-        </div>
     </main>
     <footer>
     <div class="footer-inner">
@@ -119,4 +99,3 @@
 </div>
 </body>
 </html>
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>

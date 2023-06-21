@@ -4,20 +4,20 @@
         "ctg": "Javascript",
         "title": "실무에 자주 이용하는 input collection",
         "text": "실무에 자주 이용하는 input collection이다.1년동안 에이전시에서 근무하면서 스무개가 넘는 프로젝트와 모두 런칭을 해보면서 가장 많이 구현했던 인풋 태그의 패턴을 추려보았다.1.비밀번호 입력2.휴대폰번호 기입3.약관동의 체크",
-        "thumbnail" : "/images/temp/list-thumb4.png"
+        "thumbnail" : "/dist/images/temp/list-thumb4.png"
     },
     {
         "idx": "2",
         "ctg": "Mark-up/css",
         "title": "Grid layout의 minmax()함수, grid-template-areas 활용하기",
         "text": "1.minmax() 함수 grid의 minmax는 min(최솟값)과 max(최댓값)을 정해두어 colums과 row의 트랙의 비율에 맞게,유연하게 auto로 바뀐다.",
-        "thumbnail" : "/images/temp/list-thumb3.png"
+        "thumbnail" : "/dist/images/temp/list-thumb3.png"
     },
     {
         "idx": "1",
         "ctg": "Mark-up/css",
         "title": "Grid layout 기초 이해하기",
         "text": "그리드 레이아웃은 CSS 속성을 간결하게 작성할수 있는 단축 속성이며 지금까지 도입된 CSS 모듈 중 가장 강력한 모듈이다.flex는 1차원 구조고 Grid는 좀더 복잡한 2차원 구조로 되있는 만큼 복잡한 레이아웃일수록 굉장히 쉽게 컨트롤이 가능하다.그리드 레이아웃은 세로 열과 가로 행을 기준으로 정렬하며, 자동으로 최대치까지 채워지는 기본적으로 auto 시스템이다.",
-        "thumbnail" : "/images/temp/list-thumb0.png"
+        "thumbnail" : "/dist/images/temp/list-thumb0.png"
     }
 ]
